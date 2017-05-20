@@ -70,8 +70,8 @@ class MainScene(Scene):
     def render(self, screen):
         model = Mat4()
         Math3D.translate(model, Vec3(1.0, 1.0, 1.0))
-        Math3D.rotate(model, 10.0 * pygame.time.get_ticks() / 10000, Vec3(1.0, 0.0, 0.0))
-        Math3D.rotate(model, 10.0 * pygame.time.get_ticks() / 10000, Vec3(0.0, 1.0, 0.0))
+        Math3D.rotate(model, 10.0 * self.rotation[0], Vec3(1.0, 0.0, 0.0))
+        Math3D.rotate(model, 10.0 * self.rotation[1], Vec3(0.0, 1.0, 0.0))
 
         view = Mat4()
         Math3D.translate(view, Vec3(-self.viewpos[0], -self.viewpos[1], self.viewpos[2]))
