@@ -5,4 +5,4 @@ The process is supposed to be similar to OpenGL since that's what I'm learning. 
 
 Also there is a small glitch where 2 triangles aren't properly rendered in front like they should be.
 
-![](http://i.imgur.com/DgmDK0t.gif)
+![](http://i.imgur.com/DgmDK0t.gifv)
